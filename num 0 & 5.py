@@ -1,3 +1,4 @@
+''' passing a number and checking nearest round '''
 def checknum(num):
     res = num%10
     if res == 1:
@@ -21,6 +22,6 @@ def checknum(num):
     else:
         print(num)
         
-checknum(108)        
+checknum(108)        #output will be 110
         
     
